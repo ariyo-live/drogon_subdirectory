@@ -1,0 +1,16 @@
+description: Example of erroneous attempt to include
+	<boost/utility/string_view.hpp> when using drogon in a subdirectory
+
+docker install
+	cd .devcontainer
+	./test.sh
+	./build.sh
+	view erroneous attempt to include <boost/utility/string_view.hpp>
+
+vscode test
+	install Remote - Containers (ms-vscode-remote.remote-containers)
+	Open Command Palette
+	Select "Remote Containers: Reopen in Container"
+	click "Build" in status bar
+	view erroneous attempt to include <boost/utility/string_view.hpp> 
+	
