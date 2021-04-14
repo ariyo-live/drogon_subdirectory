@@ -27,7 +27,7 @@ add_library(${PROJECT_NAME} http_server.cpp http_site.cpp http_host.cpp )
 #
 # and comment out the following lines
 find_package(Drogon CONFIG REQUIRED)
-target_link_libraries(${PROJECT_NAME} PRIVATE Drogon::Drogon)
+target_link_libraries(${PROJECT_NAME} PUBLIC Drogon::Drogon)
 
 # ##############################################################################
 
